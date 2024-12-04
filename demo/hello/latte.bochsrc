@@ -1,0 +1,14 @@
+megs: 32
+romimage: file=/home/dong/Documents/github/Bochs/build/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/home/dong/Documents/github/Bochs/build/share/bochs/VGABIOS-lgpl-latest
+floppya: 1_44="latte.img", status=inserted
+boot: floppy
+log: latte_bochsout.txt 
+display_library: sdl2
+mouse: enabled=0
+keyboard: keymap=/home/dong/Documents/github/Bochs/build/share/bochs/keymaps/sdl2-pc-us.map
+ata0: enabled=1,ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+#ata0-master: type=disk, path="hd10meg.img", cylinders=306, heads=4, spt=17
+
+cpu: ips=15000000
+clock: sync=both

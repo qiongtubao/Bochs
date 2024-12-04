@@ -1,9 +1,0 @@
-megs: 32
-romimage: file=/Users/zhouguodong/Documents/github/Bochs/build/share/bochs/BIOS-bochs-latest
-vgaromimage: file=/Users/zhouguodong/Documents/github/Bochs/build/share/bochs/VGABIOS-lgpl-latest
-floppya: 1_44=latte.img, status=inserted
-boot: floppy
-log: latte_bochsout.txt 
-display_library: sdl
-mouse: enabled=0
-keyboard: keymap=/Users/zhouguodong/Documents/github/Bochs/build/share/bochs/keymaps/sdl-pc-us.map
