@@ -1,0 +1,9 @@
+megs: 64
+display_library: sdl2
+boot: disk
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+ata0-master: type=disk, path="hello-os.img" 
+#display-library:curses, options="textmode"
+#floppya: 1_44=floppy.img, status=inserted
+#boot: floppy
+log: bochs.log
